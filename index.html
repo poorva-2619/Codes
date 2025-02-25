@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2746897660.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-text">
+            <p>B.tech CSE Student</p>
+            <h1>Hi, I'm <span>Poorvaditya</span><br>From India</h1>
+        </div>
+    </div>
+
+<!---------------about------------>
+    <div id="about">
+         <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Currently I'm pursuing Computer Science Engineering graduation 
+                        degree course with IBM (AI & DL Specialization) 
+                        which will be completed in 2028. 
+                        I have specialized project based and core 
+                        conceptual knowledge about computer science and 
+                        technology, have utilized various simulation 
+                        tools and techniques (like basics of HTML, CSS, Java, 
+                        python, C language etc.)</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Responsive Websites Development</li>
+                                <li><span>Mural</span><br>Mind Maps</li>
+                                <li><span>C Language</span><br>Making Projects</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2024-Current</span><br>Learning MERN Technology and Java</li>
+                                <li><span>2023-2024</span><br>Basics Of C Language</li>
+                                <li><span>2021-2023</span><br>Learnerd Python in school</li>
+                                <li><span>2019-2021</span><br>Learnerd basics of HTML and SQL in school</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Currently</span><br>Pursuing B.tech CSE from Mody University</li>
+                                <li><span>2023</span><br>Passed Higher Education from St.Anne's School Jodhpur</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+         </div>
+    </div>
+
+<!-----------services------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Learning Web Development. Looking forward for amazing projects and eager to provide best of my services.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-map"></i>
+                <h2>Mural</h2>
+                <p>Worked on Mural and ready to provide user-friendly services.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-c"></i>
+                <h2>C Language</h2>
+                <p>Have a good command on C Language. Looking forward for some challenging projects.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----------portfolio-------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpg">
+                <div class="layer">
+                    <h3>Myntra Clone</h3>
+                    <p>The website is a clone of actual Myntra Website.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Mural Mind Maps</h3>
+                    <p>Variety of mind maps are created in order to enhance Design Thinking.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.jpg">
+                <div class="layer">
+                    <h3>Piano Tiles</h3>
+                    <p>Its basically a project which allows you to play piano sounds using keyboard keys.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-----contact----->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>poorvaditya47@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9460220019</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Poorvaditya Resume (240153).pdf" download class="btn btn2">Download CV</a>
+               </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Meassage"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+
+    }
+
+</script>
+    
+</body>
+</html>
